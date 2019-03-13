@@ -1,0 +1,89 @@
+body{
+    background-color: #2bbbff;
+}
+
+.main{
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.main-input-point{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-point {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.input-point div{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-point div label{
+    font-size: 120%;
+    padding-left: 5%;
+    margin-bottom: 3%;
+}
+
+.input-point p{
+    width: 50px;
+}
+
+.main-input-point:nth-child(2){
+    width: 50%;
+}
+
+.show-path{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.ask-about-weather{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    width: 20%;
+}
+
+.ask-about-weather span{
+    font-size: 120%;
+}
+
+.ask-about-weather div{
+    margin-left: 4%;
+}
+
+.rain{
+    font-size: 300%;
+}
+
+.sun{
+    margin-top: 2%;
+}
+
+.sun div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
